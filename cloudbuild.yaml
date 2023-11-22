@@ -1,4 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['functions', 'deploy', 'repo-function-1', '--trigger-http', '--runtime', 'python38', '--entry-point', 'hello_auditlog']
+    args: ['functions', '	', 'repo-function-1', '--trigger-http', '--runtime', 'python38', '--entry-point', 'hello_auditlog']
+
 
