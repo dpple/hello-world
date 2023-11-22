@@ -6,4 +6,4 @@ import functions_framework
 def hello_auditlog(cloudevent):
     # Print out the CloudEvent's (required) `type` property
     # See https://github.com/cloudevents/spec/blob/v1.0.1/spec.md#type
-    print(f"Event type: {cloudevent['type']}")
+    print(f"Dhandapani type: {cloudevent['type']}")
