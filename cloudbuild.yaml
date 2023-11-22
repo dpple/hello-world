@@ -1,3 +1,3 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['functions', 'deploy', 'repo-function-1', '--trigger-http', '--runtime', 'nodejs20', '--entry-point', 'helloWorld']
+    args: ['main', 'deploy', 'repo-function-1', '--trigger-http', '--runtime', 'Python3.8', '--entry-point', 'hello_auditlog']
